@@ -32,7 +32,7 @@ by michalkowalski94 || https://github.com/michalkowalski94
 
 """)
     oceny_string_list, wagi_string_list, oceny_string, wagi_string = putting_input()
-    while len(oceny_string_list) != len(wagi_string_list) or len(oceny_string) == len(wagi_string):
+    while len(oceny_string_list) != len(wagi_string_list) or (len(oceny_string) == 0 and len(wagi_string) == 0):
         if len(oceny_string_list) < len(wagi_string_list):
             print("Nie równa ilość ocen i ETCS, prawdopodobnie przeoczyłeś/łaś oceny")
             oceny_string_list, wagi_string_list, oceny_string, wagi_string = putting_input()
