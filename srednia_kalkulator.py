@@ -52,4 +52,4 @@ by michalkowalski94 || https://github.com/michalkowalski94
     wagi_array = array(wagi)
     srednia = srednia_calc(oceny_array,wagi_array)
     print("Twoja średnia wynosi dokładnie: %s" %srednia)
-    input("Naciśnij dowolny klawisz aby zakończyć działanie programu")
+    input("Naciśnij enter aby zakończyć działanie programu")
